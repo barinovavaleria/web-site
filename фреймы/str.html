@@ -1,0 +1,81 @@
+﻿<html>
+<head>
+    <style>
+        body {
+            background-color: hsl(256, 5%, 93%);
+            margin: 20px;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        p {
+            font-family: Tahoma, sans-serif;
+            padding: 10px;
+            font-size: 23px;
+            color: #272727;
+        }
+
+        ol, ul {
+            font-family: Tahoma, sans-serif;
+            font-size: 23px;
+            padding-left: 60px;
+        }
+
+        li {
+            padding-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        
+            a:hover {
+                text-decoration: underline;
+                color: red;
+            }
+    </style>
+</head>
+<body>
+    <div>
+        <p align="center"><font size="+3" color="MidnightBlue">Добро пожаловать на Главную страницу!</font></p>
+        <p> На данном сайте Вы найдете информацию о различных направлениях современного искусства, популярных в XXI  веке.</p>
+        <ol>
+            <li>
+                <a href="postm.html" target="main">Постмодернизм</a>
+                <ul>
+                    <li>Франческо Клемента</li>
+                    <li>Сандро Киа</li>
+                </ul>
+            <li><a href="neor.html" target="main">Неореализм</a>
+            <li><a href="giperr.html" target="main">Гиперреализм</a>
+            <li>
+                <a href="neop.html" target="main">Неопластицизм</a>
+                <ul>
+                    <li>Питер Мондриан</li>
+                    <li>Тео ван Дусбург</li>
+                </ul>
+        </ol>
+        <p>Дополнительную информацию о других направлениях в современной живописи и не только можно узнать из предлагаемого видео. </p>
+        <br />
+        <br />
+        <br />
+        <center><iframe width="960" height="540" src="https://www.youtube.com/embed/CkcCjEkfTlI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+                      picture-in-picture" allowfullscreen></iframe></center>
+    </div>
+    <form action="">
+        <p><b>Какое направление современного искусства Вам больше нравится?</b></p>
+        <p>
+            <input type="radio" name="answer" value="1">Постмодернизм<br />
+            <input type="radio" name="answer" value="2">Неореализм<br />
+            <input type="radio" name="answer" value="3">Гиперреализм<br />
+            <input type="radio" name="answer" value="4">Неопластицизм<br />
+        </p>
+        <textarea cols="100" rows="5" placeholder="Объясните почему именно оно Вам нравится"></textarea>
+        <br />
+        <br />
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html> 
